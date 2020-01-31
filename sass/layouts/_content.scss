@@ -79,3 +79,11 @@
 .delay-175s {
 	animation-delay: 1.75s;
 }
+
+.trigger-animation-zoomIn {
+	opacity: 0;
+	&.animated {
+		opacity: 1;
+		animation-fill-mode: both;
+	}
+}

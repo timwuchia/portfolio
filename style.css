@@ -5627,3 +5627,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .delay-175s {
   animation-delay: 1.75s; }
+
+.trigger-animation-zoomIn {
+  opacity: 0; }
+  .trigger-animation-zoomIn.animated {
+    opacity: 1;
+    animation-fill-mode: both; }
