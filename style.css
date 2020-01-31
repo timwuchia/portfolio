@@ -5570,6 +5570,9 @@ h1, h2, h3, h4, h5, h6 {
           .site-header .header-wrapper .main-navigation ul li a {
             color: #fff; } }
 
+#skills .wp-block-column:not(:first-child) {
+  margin-left: 0; }
+
 #skills .wp-block-columns {
   flex-wrap: wrap; }
   #skills .wp-block-columns > div {
@@ -5600,3 +5603,27 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border: 1px solid #c1c1c1;
   border-radius: 5px; }
+
+.animated.duration-05 {
+  animation-duration: .5s; }
+
+.animated.duration-15 {
+  animation-duration: 1.5s; }
+
+.delay-025s {
+  animation-delay: .25s; }
+
+.delay-05s {
+  animation-delay: .5s; }
+
+.delay-075s {
+  animation-delay: .75s; }
+
+.delay-125s {
+  animation-delay: 1.25s; }
+
+.delay-15s {
+  animation-delay: 1.5s; }
+
+.delay-175s {
+  animation-delay: 1.75s; }

@@ -26,7 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tim' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="container">
+		<div>
 			<div class="d-flex justify-content-between align-items-center py-2 px-3 header-wrapper">
 				<div class="site-logo">
 					<h2>Tim Wu</h2>

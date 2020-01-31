@@ -23,12 +23,12 @@
 		})
 
     	$(window).scroll(function() {
-		   var hT = $('.trigger-animation').offset().top,
-		       hH = $('.trigger-animation').outerHeight(),
+		   var hT = $('.trigger-animation-zoomIn').offset().top,
+		       hH = $('.trigger-animation-zoomIn').outerHeight(),
 		       wH = $(window).height(),
 		       wS = $(this).scrollTop();
 		   if (wS > (hT+hH-wH)){
-		       console.log('H1 on the view!');
+		       $(' #skills .trigger-animation-zoomIn').addClass('animated zoomIn');
 		   }
 		});
     }); 
