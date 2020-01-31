@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package Tim
+ * @package timwudev
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses tim_header_style()
+ * @uses timwudev_header_style()
  */
-function tim_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'tim_custom_header_args', array(
+function timwudev_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'timwudev_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'tim_header_style',
+		'wp-head-callback'       => 'timwudev_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'tim_custom_header_setup' );
+add_action( 'after_setup_theme', 'timwudev_custom_header_setup' );
 
-if ( ! function_exists( 'tim_header_style' ) ) :
+if ( ! function_exists( 'timwudev_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see tim_custom_header_setup().
+	 * @see timwudev_custom_header_setup().
 	 */
-	function tim_header_style() {
+	function timwudev_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*

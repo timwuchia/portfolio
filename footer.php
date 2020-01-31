@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="bg-primary py-3 d-flex flex-column align-items-center justify-content-center">
-			<h2>&copy; 2020 Tim Wu</h2>
+			<p class="text-white mb-0">&copy; 2020 Tim Wu</p>
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
